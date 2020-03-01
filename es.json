@@ -1,0 +1,262 @@
+{
+  "ESKnowledgebase": {
+    "versionFormatFile": "0.0.1",
+    "name": "Экспертная система: диагностика пк",
+    "description": "Помощь в принятии решения:  ремонт, апгрейд, продажа пк"
+  },
+  "data": {
+    "question": {
+      "Q1": {
+        "text": "чистка корпуса проводилась в этом году?",
+        "description": "снятие крышки корпуса, чистка от пыли, замена термопасты.",
+        "ansvers": [
+          {
+            "text": "Нет",
+            "description": "",
+            "nextRecType": "question",
+            "nextRecId": "Q5"
+          },
+          {
+            "text": "Да",
+            "description": "",
+            "nextRecType": "question",
+            "nextRecId": "Q2"
+          }
+        ]
+      },
+
+
+      "Q2": {
+        "text": "был в ремонте?",
+        "description": "замена комплектующих, чистка, переустановка ПО",
+        "ansvers": [
+          {
+            "text": "Нет",
+            "description": "",
+            "nextRecType": "question",
+            "nextRecId": "Q8"
+          },
+          {
+            "text": "Да",
+            "description": "",
+            "nextRecType": "question",
+            "nextRecId": "Q3"
+          }
+        ]
+      },
+
+
+      "Q3": {
+        "text": "Есть другие проблемы с пк?",
+        "description": "Не работает что-либо, не загружаются компоненты и тормозит ПО",
+        "ansvers": [
+          {
+            "text": "Нет",
+            "description": "",
+            "nextRecType": "question",
+            "nextRecId": "Q11"
+          },
+          {
+            "text": "Да",
+            "description": "",
+            "nextRecType": "question",
+            "nextRecId": "Q4"
+          }
+        ]
+      },
+
+
+
+      "Q4": {
+        "text": "Выходит ошибка?",
+        "description": "нужно разобраться из-за чего появляется и о чём она сообщает",
+        "ansvers": [
+          {
+            "text": "Нет",
+            "description": "",
+            "nextRecType": "question",
+            "nextRecId": "Q5"
+          },
+          {
+            "text": "Да",
+            "description": "",
+            "nextRecType": "ansver",
+            "nextRecId": "A1"
+          }
+        ]
+      },
+
+
+      "Q5": {
+        "text": "Температура процессора выше 70С?",
+        "description": "веротяно высохла термопаста, запыленность, возможно устарели компоненты и не справляется с нагрузкой",
+        "ansvers": [
+          {
+            "text": "Нет",
+            "description": "",
+            "nextRecType": "ansver",
+            "nextRecId": "A2"
+          },
+          {
+            "text": "Да",
+            "description": "",
+            "nextRecType": "question",
+            "nextRecId": "Q7"
+          }
+        ]
+      },
+
+     
+
+      "Q7": {
+        "text": "сможете разобрать самостоятельно?",
+        "description": "снять крышку корпуса ноутбука, системного блока, вытащить куллер и радиатор, очистить от пыли, протереть процессор, нанести пасту и собрать",
+        "ansvers": [
+          {
+            "text": "Нет",
+            "description": "",
+            "nextRecType": "ansver",
+            "nextRecId": "A5"
+          },
+          {
+            "text": "Да",
+            "description": "",
+            "nextRecType": "ansver",
+            "nextRecId": "A6"
+          }
+        ]
+      },
+
+      "Q8": {
+        "text": "в мониторе производительности загрузка на 100%?",
+        "description": "возможно поможет уменьшение активных процессов",
+        "ansvers": [
+          {
+            "text": "Нет",
+            "description": "",
+            "nextRecType": "ansver",
+            "nextRecId": "A4"
+          },
+          {
+            "text": "Да",
+            "description": "",
+            "nextRecType": "question",
+            "nextRecId": "Q9"
+          }
+        ]
+      },
+
+      "Q9": {
+        "text": "Один компонент загружен на 100%?",
+        "description": "поможет замена, добавление комплектующего",
+        "ansvers": [
+          {
+            "text": "Нет",
+            "description": "",
+            "nextRecType": "ansver",
+            "nextRecId": "A10"
+          },
+          {
+            "text": "Да",
+            "description": "",
+            "nextRecType": "question",
+            "nextRecId": "Q10"
+          }
+        ]
+      },
+
+
+      "Q10": {
+        "text": "Выберите загруженный компонент:",
+        "description": "",
+        "ansvers": [
+          {
+            "text": "Видео карта",
+            "description": "",
+            "nextRecType": "ansver",
+            "nextRecId": "A7"
+          },
+          {
+            "text": "Процессор",
+            "description": "",
+            "nextRecType": "ansver",
+            "nextRecId": "A8"
+          },
+          {
+            "text": "Оперативная память",
+            "description": "",
+            "nextRecType": "ansver",
+            "nextRecId": "A9"
+          }
+        ]
+      },
+
+
+      "Q11": {
+        "text": "Дата покупки больше 3х лет?",
+        "description": "обычно до 3х лет гарантия, в ходе которой производитель может бесплатно решить заводской брак",
+        "ansvers": [
+       
+          {
+            "text": "Нет",
+            "description": "",
+            "nextRecType": "ansver",
+            "nextRecId": "A4"
+          },
+          {
+            "text": "Да",
+            "description": "",
+            "nextRecType": "ansver",
+            "nextRecId": "A3"
+          }
+        ]
+      }
+
+    },
+    "ansver": {
+      "A1": {
+        "text": "Неремонтнопригоден, утилизировать ПК",
+        "description": "увы, лучше не тратить время и силы"
+      },
+      "A2": {
+        "text": "Продать ПК",
+        "description": "и отложить средства на новый, либо если уже не актуален, то на другую покупку"
+      },
+      "A3": {
+        "text": "Копить на новый ПК",
+        "description": "с оговоркой если он вообще нужен"
+      },
+      "A4": {
+        "text": "Не о чем беспокоится",
+        "description": "все здорово"
+      },
+      "A5": {
+        "text": "Отнести мастерам",
+        "description": "если на гарантии то в сертифицированный центр, если истекла, то куда хочется"
+      },
+      "A6": {
+        "text": "самостоятельно разобрать корпус, почистить от пыли, заменить термопасту",
+        "description": "после проблема должна разрешиться"
+      },
+      "A7": {
+        "text": "замена видео карты",
+        "description": " на более современную"
+      },
+      "A8": {
+        "text": "замена процессора",
+        "description": "на более современный"
+      },
+      "A9": {
+        "text": "замена оперативной памяти",
+        "description": "на более современную либо если есть свободный слот, докупить аналогичную"
+      },
+      "A10": {
+        "text": "купить новый ПК",
+        "description": "пк стал вашей неотемлемой частью жизни? значит нужно это сделать"
+      }
+
+    }
+  } 
+
+}
+
