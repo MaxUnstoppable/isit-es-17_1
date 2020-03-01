@@ -13,14 +13,12 @@
           {
             "text": "Нет",
             "description": "",
-            "nextRecType": "question",
-            "nextRecId": "Q5"
+          
           },
           {
             "text": "Да",
             "description": "",
-            "nextRecType": "question",
-            "nextRecId": "Q2"
+           
           }
         ]
       },
@@ -33,14 +31,12 @@
           {
             "text": "Нет",
             "description": "",
-            "nextRecType": "question",
-            "nextRecId": "Q8"
+           
           },
           {
             "text": "Да",
             "description": "",
-            "nextRecType": "question",
-            "nextRecId": "Q3"
+            
           }
         ]
       },
@@ -53,14 +49,12 @@
           {
             "text": "Нет",
             "description": "",
-            "nextRecType": "question",
-            "nextRecId": "Q11"
+           
           },
           {
             "text": "Да",
             "description": "",
-            "nextRecType": "question",
-            "nextRecId": "Q4"
+            
           }
         ]
       },
@@ -74,14 +68,12 @@
           {
             "text": "Нет",
             "description": "",
-            "nextRecType": "question",
-            "nextRecId": "Q5"
+           
           },
           {
             "text": "Да",
             "description": "",
-            "nextRecType": "ansver",
-            "nextRecId": "A1"
+         
           }
         ]
       },
@@ -94,14 +86,12 @@
           {
             "text": "Нет",
             "description": "",
-            "nextRecType": "ansver",
-            "nextRecId": "A2"
+           
           },
           {
             "text": "Да",
             "description": "",
-            "nextRecType": "question",
-            "nextRecId": "Q7"
+           
           }
         ]
       },
@@ -115,14 +105,12 @@
           {
             "text": "Нет",
             "description": "",
-            "nextRecType": "ansver",
-            "nextRecId": "A5"
+           
           },
           {
             "text": "Да",
             "description": "",
-            "nextRecType": "ansver",
-            "nextRecId": "A6"
+            
           }
         ]
       },
@@ -134,14 +122,12 @@
           {
             "text": "Нет",
             "description": "",
-            "nextRecType": "ansver",
-            "nextRecId": "A4"
+           
           },
           {
             "text": "Да",
             "description": "",
-            "nextRecType": "question",
-            "nextRecId": "Q9"
+           
           }
         ]
       },
@@ -153,14 +139,12 @@
           {
             "text": "Нет",
             "description": "",
-            "nextRecType": "ansver",
-            "nextRecId": "A10"
+            
           },
           {
             "text": "Да",
             "description": "",
-            "nextRecType": "question",
-            "nextRecId": "Q10"
+           
           }
         ]
       },
@@ -173,20 +157,17 @@
           {
             "text": "Видео карта",
             "description": "",
-            "nextRecType": "ansver",
-            "nextRecId": "A7"
+          
           },
           {
             "text": "Процессор",
             "description": "",
-            "nextRecType": "ansver",
-            "nextRecId": "A8"
+           
           },
           {
             "text": "Оперативная память",
             "description": "",
-            "nextRecType": "ansver",
-            "nextRecId": "A9"
+           
           }
         ]
       },
@@ -200,14 +181,12 @@
           {
             "text": "Нет",
             "description": "",
-            "nextRecType": "ansver",
-            "nextRecId": "A4"
+           
           },
           {
             "text": "Да",
             "description": "",
-            "nextRecType": "ansver",
-            "nextRecId": "A3"
+            
           }
         ]
       }
