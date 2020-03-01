@@ -12,12 +12,12 @@
         "ansvers": [
           {
             "text": "Нет",
-            "description": "",
+            "description": ""
           
           },
           {
             "text": "Да",
-            "description": "",
+            "description": ""
            
           }
         ]
@@ -30,13 +30,13 @@
         "ansvers": [
           {
             "text": "Нет",
-            "description": "",
+            "description": ""
            
           },
           {
             "text": "Да",
-            "description": "",
-            
+            "description": ""
+           
           }
         ]
       },
@@ -48,12 +48,12 @@
         "ansvers": [
           {
             "text": "Нет",
-            "description": "",
+            "description": ""
            
           },
           {
             "text": "Да",
-            "description": "",
+            "description": ""
             
           }
         ]
@@ -67,12 +67,12 @@
         "ansvers": [
           {
             "text": "Нет",
-            "description": "",
+            "description": ""
            
           },
           {
             "text": "Да",
-            "description": "",
+            "description": ""
          
           }
         ]
@@ -85,12 +85,12 @@
         "ansvers": [
           {
             "text": "Нет",
-            "description": "",
+            "description": ""
            
           },
           {
             "text": "Да",
-            "description": "",
+            "description": ""
            
           }
         ]
@@ -104,12 +104,12 @@
         "ansvers": [
           {
             "text": "Нет",
-            "description": "",
+            "description": ""
            
           },
           {
             "text": "Да",
-            "description": "",
+            "description": ""
             
           }
         ]
@@ -121,12 +121,12 @@
         "ansvers": [
           {
             "text": "Нет",
-            "description": "",
+            "description": ""
            
           },
           {
             "text": "Да",
-            "description": "",
+            "description": ""
            
           }
         ]
@@ -138,12 +138,12 @@
         "ansvers": [
           {
             "text": "Нет",
-            "description": "",
+            "description": ""
             
           },
           {
             "text": "Да",
-            "description": "",
+            "description": ""
            
           }
         ]
@@ -156,17 +156,17 @@
         "ansvers": [
           {
             "text": "Видео карта",
-            "description": "",
+            "description": ""
           
           },
           {
             "text": "Процессор",
-            "description": "",
+            "description": ""
            
           },
           {
             "text": "Оперативная память",
-            "description": "",
+            "description": ""
            
           }
         ]
@@ -180,12 +180,12 @@
        
           {
             "text": "Нет",
-            "description": "",
+            "description": ""
            
           },
           {
             "text": "Да",
-            "description": "",
+            "description": ""
             
           }
         ]
